@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cours particuliers</title>
+</head>
+
+<body>
+  <button onclick="document.location='accueil.html'">Revenir Ã  l'accueil</button>
+</body>
+<img src="Images/logo.png" alt="logo">
+<h1>Outils de recherche pour des cours particuliers</h1>
+<form action="/recherche_cours_particuliers.php" method="post">
+  <p>Cours avec :</p>
+  <label for="enseignant">un enseignant</label>
+  <input type="checkbox" id="enseignant" name="avec"><br>
+  <label for="etudiant">un étudiant</label>
+  <input type="checkbox" id="etudiant" name="avec"><br>
+  <p>Quel niveau :</p>
+  <label for="college">collège</label>
+  <input type="checkbox" id="college" name="niveau"><br>
+  <label for="lycee">lycée</label>
+  <input type="checkbox" id="lycee" name="niveau"><br>
+  <label for="etudesup">études supérieures</label>
+  <input type="checkbox" id="etudesup" name="niveau"><br>
+  <p>Quelle matière :</p>
+  <label for="histoire">histoire</label>
+  <input type="checkbox" id="histoire" name="matiere"><br>
+  <label for="math">mathématiques</label>
+  <input type="checkbox" id="math" name="matiere"><br>
+  <label for="eco">économie/droit</label>
+  <input type="checkbox" id="eco" name="matiere"><br>
+  <label for="fr">français/philosophie</label>
+  <input type="checkbox" id="fr" name="matiere"><br>
+  <label for="bio">biologie</label>
+  <input type="checkbox" id="bio" name="matiere"><br>
+</form>
+
+</html>
