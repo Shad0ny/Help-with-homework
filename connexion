@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Connexion</title>
+</head>
+
+<body>
+  <button onclick="document.location='accueil.html'">Revenir à  l'accueil</button>
+  <h1>Connexion</h1>
+  <form action="/inscrit.php" method="post">
+    <label for="login">Identifiant/adresse mail :</label><br>
+    <input type="text" id="login" name="login"><br>
+    <label for="password1">Mot de passe :</label><br>
+    <input type="password" id="password1" name="password1"><br><br>
+    <input type="submit" value="Se connecter">
+  </form>
+  <h1>Pas encore de compte ? Inscrivez vous dès maintenant !</h1>
+  <form action="/inscrit.php" method="post">
+    <label for="Nom">Nom :</label><br>
+    <input type="text" id="Nom" name="Nom"><br>
+    <label for="Prenom">Prénom :</label><br>
+    <input type="text" id="Prenom" name="Prenom"><br>
+    <label for="birthday">Date de naissance :</label><br>
+    <input type="date" id="birthday" name="birthday"><br>
+    <label for="mail">Adresse mail :</label><br>
+    <input type="text" id="mail" name="mail"><br>
+    <label for="password2">Mot de passe :</label><br>
+    <input type="password" id="password2" name="password2"><br>
+    <label for="password3">Confirmez le mot de passe :</label><br>
+    <input type="password" id="password3" name="password3"><br>
+  </form>
+  <p>Votre statut actuel :</p>
+  <form action="/inscrit.php" method="post">
+    <label for="student">Etudiant</label>
+    <input type="radio" id="student" name="statut"><br>
+    <label for="teacher">Enseignant</label>
+    <input type="radio" id="teacher" name="statut"><br>
+    <label for="other">Autre</label>
+    <input type="radio" id="other" name="statut"><br><br>
+    <input type="submit" value="S'inscrire">
+  </form>
+</body>
