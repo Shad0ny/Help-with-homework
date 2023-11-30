@@ -9,10 +9,4 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
-.logo {
-  width: 142px; /* Largeur de votre conteneur */
-  height: 143px; /* Hauteur de votre conteneur */
-  background-image: url('./assets/Img/logo.png'); /* Chemin vers votre image */
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-  background-position: center; /* Positionne l'image au centre du conteneur */
-}
+
