@@ -15,3 +15,9 @@ body {
   background-position: center; /* Positionne l'image au centre du conteneur */
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
