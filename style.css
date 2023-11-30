@@ -6,7 +6,7 @@ body {
 }
 
 .logo {
-  background-image: url('./assets/Img/logo.png');
+  background-image: url('assets/Img/logo.png');
   background-size: width 142px, height 143px;
   background-position:top 59px,left 83px;
 }
