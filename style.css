@@ -16,16 +16,17 @@ body {
 }
 
 footer {
-  .footimg{
-    width: 42px;
-    height: 43px;
-    top: 59px;
-    left: 83px;
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-    background-position: center;
-  }
+ 
   text-align: center;
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
 }
+.footimg{
+    width: 42px;
+    height: 43px;
+    top: 59px;
+    left: 83px;
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
+    background-position: center; 
+  }
