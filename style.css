@@ -31,6 +31,7 @@ footer {
     background-position: center; 
   }
 .connexion {
+  position: absolute;
   top:100px;
   left: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
 }
