@@ -25,6 +25,8 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
+  padding: 20px;
+  margin-top: auto;
 }
 .footimg{
     width: 45px;
