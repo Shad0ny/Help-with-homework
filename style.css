@@ -41,8 +41,6 @@ table, th, td {
 .img{
   width: 90px;
   height: 90px;
-  top: 60px;
-  left: 85px;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center; 
 }
