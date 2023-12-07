@@ -69,15 +69,17 @@ table, th, td {
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center; 
 }
-/* Style de base pour les liens du sommaire */
-.lien-sommaire {
-  color: #007BFF; /* Couleur du texte par défaut */
-  text-decoration: none; /* Supprimer le soulignement par défaut des liens */
-  transition: color 0.3s ease; /* Ajouter une transition de couleur pour l'effet d'animation */
+/* Style de base pour les blocs cliquables du sommaire */
+.bloc-clicable {
+  padding: 10px; /* Ajouter un peu d'espace intérieur pour améliorer l'apparence */
+  margin-bottom: 10px; /* Ajouter de l'espace entre les blocs */
+  background-color: #f0f0f0; /* Couleur de fond par défaut */
+  border: 1px solid #ccc; /* Bordure par défaut */
+  cursor: pointer; /* Modifier le curseur pour indiquer que le bloc est cliquable */
+  transition: background-color 0.3s ease; /* Ajouter une transition pour l'effet d'animation */
 }
 
-/* Style au survol des liens du sommaire */
-.lien-sommaire:hover {
-  color: #0056b3; /* Changer la couleur du texte au survol */
-  text-decoration: underline; /* Souligner le texte au survol */
+/* Style au survol des blocs cliquables du sommaire */
+.bloc-clicable:hover {
+  background-color: #d5d5d5; /* Changer la couleur de fond au survol */
 }
