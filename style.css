@@ -100,3 +100,22 @@ p {
   line-height: 1.5; /* Espacement entre les lignes */
   color: #333; /* Couleur du texte */
 }
+h1 {
+    font-size: 3em; /* Taille de la police */
+    color: #2e4057; /* Couleur du texte (par exemple, un bleu foncé) */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Ajoute un espace autour du texte */
+    margin: 0; /* Supprime les marges par défaut */
+    background-color: #f4d35e; /* Couleur de fond pour le titre (par exemple, jaune) */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère pour le texte */
+    transition: background-color 0.3s ease; /* Ajoute une transition pour une animation fluide */
+
+    /* Ajoutez d'autres styles personnalisés selon vos préférences */
+}
+
+h1:hover {
+    background-color: #e07a5f; /* Couleur de fond au survol (par exemple, une teinte de rouge) */
+    color: #fff; /* Couleur du texte au survol */
+}
