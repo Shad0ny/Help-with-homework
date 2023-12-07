@@ -70,13 +70,6 @@ table, th, td {
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center;
 }
-  
-.img_big{
-  width: 400px;
-  height: 300px;
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-  background-position: center;
-}
 
 /* Style de base pour les blocs cliquables du sommaire */
 .bloc-clicable {
