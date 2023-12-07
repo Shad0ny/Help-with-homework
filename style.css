@@ -64,7 +64,6 @@ table, th, td {
   height: 90px;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center; 
-}
 /* Style de base pour les blocs cliquables du sommaire */
 .bloc-clicable {
   padding: 10px;
@@ -73,10 +72,17 @@ table, th, td {
   border: 1px solid #ccc;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: #000;
 }
 
 /* Style au survol des blocs cliquables du sommaire */
 .bloc-clicable:hover {
   background-color: #d5d5d5;
-  transform: scale(1.05); /* Ajouter une légère animation de zoom au survol */
+}
+
+/* Style pour le bloc orange */
+.bloc-orange {
+  background-color: #FFA500; /* Couleur orange */
+  color: #000; /* Couleur du texte en noir */
 }
