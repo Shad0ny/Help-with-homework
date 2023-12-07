@@ -19,6 +19,11 @@ body {
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center; /* Positionne l'image au centre du conteneur */
 }
+.connexion {
+  position: absolute;
+  top:30px;
+  right: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
+}
 footer {
  
   text-align: center;
@@ -36,11 +41,24 @@ footer {
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
     background-position: center; 
   }
-.connexion {
-  position: absolute;
-  top:30px;
-  right: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
+.footer-section {
+  margin-bottom: 20px; /* Marge entre les sections du footer */
 }
+
+.footer-section h4 {
+  margin-bottom: 5px; /* Marge sous les titres */
+}
+
+.footer-section a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: #333; /* Couleur des liens */
+}
+
+.footer-links a {
+  display: block; /* Affiche les liens verticalement avec un espacement entre eux */
+  margin-bottom: 5px; /* Marge entre les liens */
+}
+
 table, th, td {
   border: 1px solid black;
   border-radius: 10px;
