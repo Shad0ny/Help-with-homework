@@ -69,15 +69,16 @@ table, th, td {
 }
 /* Style de base pour les blocs cliquables du sommaire */
 .bloc-clicable {
-  padding: 10px; /* Ajouter un peu d'espace intérieur pour améliorer l'apparence */
-  margin-bottom: 10px; /* Ajouter de l'espace entre les blocs */
-  background-color: #f0f0f0; /* Couleur de fond par défaut */
-  border: 1px solid #ccc; /* Bordure par défaut */
-  cursor: pointer; /* Modifier le curseur pour indiquer que le bloc est cliquable */
-  transition: background-color 0.3s ease; /* Ajouter une transition pour l'effet d'animation */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 /* Style au survol des blocs cliquables du sommaire */
 .bloc-clicable:hover {
-  background-color: #d5d5d5; /* Changer la couleur de fond au survol */
+  background-color: #d5d5d5;
+  transform: scale(1.05); /* Ajouter une légère animation de zoom au survol */
 }
