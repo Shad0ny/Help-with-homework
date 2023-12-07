@@ -126,35 +126,21 @@ h1:hover {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.table_forum thead {
-    background-color: #ff8c00; /* Couleur orange principale pour l'en-tête */
-    color: #fff;
 }
 
 .table_forum th, .table_forum td {
     padding: 15px;
+    border: 1px solid #ddd; /* Bordure entre les cellules */
     text-align: left;
-    border-bottom: 1px solid #ddd; /* Bordure entre les lignes */
+}
+
+.table_forum th {
+    background-color: #ff8c00; /* Couleur orange pour l'en-tête */
+    color: #fff; /* Texte blanc pour l'en-tête */
 }
 
 .table_forum tr:hover {
     background-color: #fff7e8; /* Couleur au survol des lignes */
-    transition: background-color 0.3s ease;
-}
-
-.table_forum th:first-child, .table_forum td:first-child {
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-
-.table_forum th:last-child, .table_forum td:last-child {
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
 }
 
 .table_forum a {
