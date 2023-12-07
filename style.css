@@ -69,4 +69,15 @@ table, th, td {
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center; 
 }
+/* Style de base pour les liens du sommaire */
+.lien-sommaire {
+  color: #007BFF; /* Couleur du texte par défaut */
+  text-decoration: none; /* Supprimer le soulignement par défaut des liens */
+  transition: color 0.3s ease; /* Ajouter une transition de couleur pour l'effet d'animation */
+}
 
+/* Style au survol des liens du sommaire */
+.lien-sommaire:hover {
+  color: #0056b3; /* Changer la couleur du texte au survol */
+  text-decoration: underline; /* Souligner le texte au survol */
+}
