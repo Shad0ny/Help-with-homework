@@ -12,7 +12,7 @@ body {
 
 .logo {
   width: 85px;
-  height: 85px;
+  height: auto;
   top: 60px;
   left: 85px;
   background-image: url('assets/Img/logo.png'); /* Chemin vers votre image */
