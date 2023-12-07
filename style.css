@@ -85,4 +85,5 @@ table, th, td {
 .bloc-orange {
   background-color: #FFA500; /* Couleur orange */
   color: #000; /* Couleur du texte en noir */
+  transition: background-color 0.3s ease; /* Ajouter une transition pour l'effet d'animation */
 }
