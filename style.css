@@ -59,17 +59,20 @@ table, th, td {
   border: 1px solid black;
   border-radius: 10px;
 }
+
 .img{
   width: 90px;
   height: 90px;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center;
-
+}
+  
 .img_big{
   width: 180px;
   height: 180px;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center;
+}
 
 /* Style de base pour les blocs cliquables du sommaire */
 .bloc-clicable {
