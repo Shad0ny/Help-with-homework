@@ -39,7 +39,7 @@ footer {
     left: 85px;
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
     background-position: center; 
-  }
+}
 
 .footer-section {
   margin-bottom: 20px; /* Marge entre les sections du footer */
