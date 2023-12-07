@@ -32,6 +32,6 @@ footer {
   }
 .connexion {
   position: absolute;
-  top:100px;
-  left: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
+  top:60px;
+  right: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
 }
