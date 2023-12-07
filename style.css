@@ -25,11 +25,9 @@ body {
   right: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
 }
 footer {
-  padding: 3px;
   background-color: #001EF9;
   color: white;
   padding: 20px;
-  margin-top: auto;
 }
 .footimg{
     width: 45px;
