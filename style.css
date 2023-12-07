@@ -96,7 +96,7 @@ table, th, td {
 }
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px; /* Taille de la police en pixels */
+  font-size: 18px; /* Taille de la police en pixels */
   line-height: 1.5; /* Espacement entre les lignes */
   color: #333; /* Couleur du texte */
 }
