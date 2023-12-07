@@ -39,8 +39,8 @@ table, th, td {
   border-radius: 10px;
 }
 .img{
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   top: 60px;
   left: 85px;
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
