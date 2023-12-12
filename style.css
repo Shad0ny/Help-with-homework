@@ -54,7 +54,7 @@ footer {
   color: #F0F0F0; /* Couleur des liens */
 }
 
-.footer-links a {
+.footer-links div {
   display: block; /* Affiche les liens verticalement avec un espacement entre eux */
   margin-bottom: 5px; /* Marge entre les liens */
 }
