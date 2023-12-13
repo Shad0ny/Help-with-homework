@@ -12,19 +12,41 @@
   <button class=connexion onclick="document.location='accueil.html'">Revenir à  l'accueil</button>
   <h1>Connexion</h1>
   <!-- Le formulaire de connexion-->
+  <div>
   <form action="/Help-with-homework/accueil.html" method="get">
+    <table border="0" cellspacing="5" cellpadding="5">
+      <tr>
+        <td>
     <label for="login">Identifiant/adresse mail :</label><br>
+        </td>
+        <td>
     <input type="text" id="login" name="login" required><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
     <label for="password1">Mot de passe :</label><br>
+        </td>
+        <td>
     <input type="password" id="password1" name="password1" required><br><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
     <input type="submit" value="Se connecter">
+        </td>
+      </tr>
+    </table>
   </form>
+  </div>
+  
   <h1>Pas encore de compte ? Inscrivez vous dès maintenant !</h1>
   <!-- Le formulaire d'inscription-->
+  
   <form action="/Help-with-homework/accueil.html" method="get">
     <label for="Nom">Nom :</label><br>
     <input type="text" id="Nom" name="Nom" required><br>
-    <label for="Prenom">Prénom :</label>
+    <label for="Prenom">Prénom :</label><br>
     <input type="text" id="Prenom" name="Prenom" required><br>
     <label for="birthday">Date de naissance :</label><br>
     <input type="date" id="birthday" name="birthday" required><br>
@@ -37,6 +59,7 @@
     <input type="submit" value="S'inscrire">
   </form>
 
+  
 <footer>
   <div class="footer-section">
     <h4>Instagram :</h4>
