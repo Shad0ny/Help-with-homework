@@ -76,6 +76,7 @@ table, th, td {
 /* Style pour les images générales */
 .img{
   width: auto; /* Largeur automatique en fonction du contenu */
+  max-width: 125px;/* Limite la Largeur automatique en fonction du contenu */
   height: 90px; /* Hauteur fixe */
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center;
