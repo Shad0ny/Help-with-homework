@@ -15,7 +15,7 @@ body {
 .logo {
   width: 85px; /* Largeur fixe */
   height: 85px; /* Hauteur fixe */
-  margin: 30px; /* Marge autour du logo */
+  margin: 15px; /* Marge autour du logo */
 }
 
 /* Style pour le bouton de connexion */
