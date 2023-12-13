@@ -59,7 +59,7 @@ footer {
 }
 
 /* Style pour les liens listés dans le footer */
-.footer-links div {
+.footer-links a {
   display: block; /* Affiche chaque lien sur une nouvelle ligne */
   margin-bottom: 5px; /* Marge entre les liens */
 }
