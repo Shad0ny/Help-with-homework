@@ -25,11 +25,14 @@ body {
   right: 50px; /* Positionne à 50px de la droite */
 }
 
+/* Footer section Start */
+
 /* Style pour le footer */
 footer {
   background-color: #001EF9; /* Couleur de fond bleue */
   color: white; /* Texte en blanc */
   padding: 20px; /* Padding autour du contenu */
+  display: flex;/* Oriente les enfants en ligne */
 }
 
 /* Style pour les images dans le footer */
@@ -45,7 +48,6 @@ footer {
 /* Style pour les sections dans le footer */
 .footer-section {
   margin-bottom: 20px; /* Marge en dessous de chaque section */
-  display: flex;/* Oriente les éléments en ligne */
 }
 
 /* Style pour les titres dans les sections du footer */
@@ -64,6 +66,8 @@ footer {
   display: block; /* Affiche chaque lien sur une nouvelle ligne */
   margin-bottom: 5px; /* Marge entre les liens */
 }
+
+/* Footer section end */
 
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
 table, th, td {
