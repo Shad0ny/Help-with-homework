@@ -39,6 +39,7 @@ body {
 /*Centrer une box sur la page horizontalement*/
 .centrerDiv{
   margin:0 auto;
+  display:flex;
 }
 
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
