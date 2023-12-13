@@ -129,7 +129,6 @@ h1:hover {
 
 /*centrer image*/
 .centerEnf{
-  display: flex;/* Oriente les enfants */
   align-items: center;/*centre l'interieur des box footeur*/
 }
 
