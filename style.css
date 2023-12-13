@@ -1,149 +1,167 @@
+/* Style de base pour le corps du site */
 body {
-  background: linear-gradient(339deg, rgba(255, 255, 255, 0.10) 14.15%, rgba(0, 0, 0, 0.00) 77.85%), linear-gradient(151deg, rgba(255, 255, 255, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), #001BE3;
-  min-height: 100vh;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 0;
-  padding: 0;
+  background: linear-gradient(339deg, rgba(255, 255, 255, 0.10) 14.15%, rgba(0, 0, 0, 0.00) 77.85%), 
+              linear-gradient(151deg, rgba(255, 255, 255, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), #001BE3;
+  /* Crée un arrière-plan dégradé avec un bleu profond */
+  min-height: 100vh; /* Hauteur minimale pour occuper toute la hauteur de la fenêtre */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); /* Ajoute une ombre légère */
+  margin: 0; /* Supprime la marge par défaut */
+  padding: 0; /* Supprime le padding par défaut */
   height: 100%; /* Ajuste la hauteur à 100% de la fenêtre */
-  display: flex;
-  flex-direction: column;
-
+  display: flex; /* Utilise Flexbox pour le positionnement */
 }
 
+/* Style pour le logo */
 .logo {
-  width: 85px;
-  height: 85px;
-  margin: 30px;
+  width: 85px; /* Largeur fixe */
+  height: 85px; /* Hauteur fixe */
+  margin: 30px; /* Marge autour du logo */
 }
 
+/* Style pour le bouton de connexion */
 .connexion {
-  position: absolute;
-  top:30px;
-  right: 50px; /* Vous pouvez ajuster cette valeur pour déplacer le bouton horizontalement */
+  position: absolute; /* Positionnement absolu sur la page */
+  top: 30px; /* Positionne à 30px du haut */
+  right: 50px; /* Positionne à 50px de la droite */
 }
 
+/* Style pour le footer */
 footer {
-  background-color: #001EF9;
-  color: white;
-  padding: 20px;
+  background-color: #001EF9; /* Couleur de fond bleue */
+  color: white; /* Texte en blanc */
+  padding: 20px; /* Padding autour du contenu */
 }
 
+/* Style pour les images dans le footer */
 .footimg{
-    width: 45px;
-    height: 45px;
-    top: 60px;
-    left: 85px;
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-    background-position: center; 
+  width: 45px; /* Largeur fixe */
+  height: 45px; /* Hauteur fixe */
+  top: 60px;
+  left: 85px;
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
+  background-position: center; 
 }
 
+/* Style pour les sections dans le footer */
 .footer-section {
-  margin-bottom: 20px; /* Marge entre les sections du footer */
+  margin-bottom: 20px; /* Marge en dessous de chaque section */
 }
 
+/* Style pour les titres dans les sections du footer */
 .footer-section h4 {
-  margin-bottom: 5px; /* Marge sous les titres */
+  margin-bottom: 5px; /* Marge en dessous du titre */
 }
 
+/* Style pour les liens dans les sections du footer */
 .footer-section a {
   text-decoration: none; /* Supprime le soulignement des liens */
   color: #F0F0F0; /* Couleur des liens */
 }
 
+/* Style pour les liens listés dans le footer */
 .footer-links div {
-  display: block; /* Affiche les liens verticalement avec un espacement entre eux */
+  display: block; /* Affiche chaque lien sur une nouvelle ligne */
   margin-bottom: 5px; /* Marge entre les liens */
 }
 
+/* Style de base pour les tables, cellules, et en-têtes de tableau */
 table, th, td {
-  border-radius: 10px;
+  border-radius: 10px; /* Coins arrondis pour les tables et cellules */
 }
 
+/* Style pour les images générales */
 .img{
-  width: auto;
-  height: 90px;
+  width: auto; /* Largeur automatique en fonction du contenu */
+  height: 90px; /* Hauteur fixe */
   background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
   background-position: center;
 }
 
-/* Style de base pour les blocs cliquables du sommaire */
+/* Style de base pour les blocs cliquables dans le sommaire */
 .bloc-clicable {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  color: #000;
+  padding: 10px; /* Espacement à l'intérieur du bloc */
+  margin-bottom: 10px; /* Marge en dessous de chaque bloc */
+  background-color: #f0f0f0; /* Couleur de fond claire */
+  border: 1px solid #ccc; /* Bordure légère */
+  cursor: pointer; /* Indique que l'élément est cliquable */
+  transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: #000; /* Texte en noir */
 }
 
-/* Style au survol des blocs cliquables du sommaire */
+/* Style au survol pour les blocs cliquables */
 .bloc-clicable:hover {
-  background-color: #d5d5d5;
+  background-color: #d5d5d5; /* Couleur de fond plus sombre au survol */
 }
 
-/* Style pour le bloc orange */
+/* Style pour les blocs avec un fond orange */
 .bloc-orange {
-  background-color: #FFA500; /* Couleur orange */
-  color: #000; /* Couleur du texte en noir */
-  transition: background-color 0.3s ease; /* Ajouter une transition pour l'effet d'animation */
+  background-color: #FFA500; /* Couleur de fond orange */
+  color: #000; /* Texte en noir */
+  transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
 }
 
+/* Style de base pour les paragraphes */
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px; /* Taille de la police en pixels */
+  font-family: 'Open Sans', sans-serif; /* Police de caractères */
+  font-size: 18px; /* Taille de la police */
   line-height: 1.5; /* Espacement entre les lignes */
   color: #333; /* Couleur du texte */
 }
 
+/* Style pour les titres de niveau 1 (h1) */
 h1 {
     font-size: 3em; /* Taille de la police */
-    color: #2e4057; /* Couleur du texte (par exemple, un bleu foncé) */
-    text-align: center; /* Centre le texte */
-    padding: 20px; /* Ajoute un espace autour du texte */
+    color: #2e4057; /* Couleur du texte (bleu foncé) */
+    text-align: center; /* Centrage du texte */
+    padding: 20px; /* Espacement autour du texte */
     margin: 0; /* Supprime les marges par défaut */
-    background-color: #f4d35e; /* Couleur de fond pour le titre (par exemple, jaune) */
+    background-color: #f4d35e; /* Couleur de fond jaune */
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère pour le texte */
-    transition: background-color 0.3s ease; /* Ajoute une transition pour une animation fluide */
-
-    /* Ajoutez d'autres styles personnalisés selon vos préférences */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
 }
 
+/* Style au survol pour les titres de niveau 1 (h1) */
 h1:hover {
-    background-color: #e07a5f; /* Couleur de fond au survol (par exemple, une teinte de rouge) */
-    color: #fff; /* Couleur du texte au survol */
+    background-color: #e07a5f; /* Couleur de fond rouge au survol */
+    color: #fff; /* Texte en blanc au survol */
 }
 
+/* Style de base pour le tableau du forum */
 .table_forum {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    width: 100%; /* Largeur totale */
+    border-collapse: collapse; /* Supprime les espaces entre les bordures */
+    margin-top: 20px; /* Marge au-dessus du tableau */
 }
 
+/* Style pour les cellules et en-têtes du tableau du forum */
 .table_forum th, .table_forum td {
-    padding: 15px;
-    border: 1px solid #ddd; /* Bordure entre les cellules */
-    text-align: left;
+    padding: 15px; /* Espacement à l'intérieur des cellules */
+    border: 1px solid #ddd; /* Bordure légère */
+    text-align: left; /* Alignement du texte à gauche */
 }
 
+/* Style pour les en-têtes du tableau du forum */
 .table_forum th {
-    background-color: #ff8c00; /* Couleur orange pour l'en-tête */
-    color: #fff; /* Texte blanc pour l'en-tête */
+    background-color: #ff8c00; /* Fond orange */
+    color: #fff; /* Texte en blanc */
 }
 
+/* Style au survol pour les lignes du tableau du forum */
 .table_forum tr:hover {
-    background-color: #fff7e8; /* Couleur au survol des lignes */
+    background-color: #fff7e8; /* Fond plus clair au survol */
 }
 
+/* Style pour les liens dans le tableau du forum */
 .table_forum a {
     color: #ff8c00; /* Couleur orange pour les liens */
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Texte en gras */
 }
 
+/* Style au survol pour les liens dans le tableau du forum */
 .table_forum a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Souligne le lien au survol */
 }
