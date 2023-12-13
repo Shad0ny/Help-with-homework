@@ -33,6 +33,7 @@ footer {
   color: white; /* Texte en blanc */
   padding: 20px; /* Padding autour du contenu */
   display: flex;/* Oriente les enfants en ligne */
+  justify-content: space-arrond;/*adapte les bbox au la taille de l'écran*/
 }
 
 /* Style pour les images dans le footer */
