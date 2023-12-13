@@ -15,9 +15,6 @@ body {
   height: 85px;
   top: 60px;
   left: 85px;
-  background-image: url('assets/Img/logo.png'); /* Chemin vers votre image */
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-  background-position: center; /* Positionne l'image au centre du conteneur */
 }
 
 .connexion {
@@ -60,7 +57,6 @@ footer {
 }
 
 table, th, td {
-  border: 1px solid black;
   border-radius: 10px;
 }
 
