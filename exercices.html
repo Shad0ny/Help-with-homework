@@ -1,118 +1,122 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Exercices</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de style CSS -->
+    <title>Exercices</title> <!-- Titre de l'onglet pour la page des exercices -->
 </head>
 
 <body>
-  <img src="./assets/Img/logo.png" alt="logo" class=logo>
-  <button class=connexion onclick="document.location='accueil.html'">Revenir à l'accueil</button>
-  <h1>Entrainement avec des exercices</h1>
-  <div class=centrerDiv>
-  <form action="/Help-with-homework/accueil.html" method="get">
-    <table>
-        <!-- Section 'Quel niveau' -->
-        <tr>
-            <td colspan="2"><p><b>Quel niveau :</b></p></td>
-        </tr>
-        <tr>
-            <td><label for="college">collège</label></td>
-            <td><input type="checkbox" id="college" name="niveau"></td>
-        </tr>
-        <tr>
-            <td><label for="lycee">lycée</label></td>
-            <td><input type="checkbox" id="lycee" name="niveau"></td>
-        </tr>
+    <img src="./assets/Img/logo.png" alt="logo" class="logo"> <!-- Affichage du logo du site -->
+    <button class="connexion" onclick="document.location='accueil.html'">Revenir à l'accueil</button> <!-- Bouton pour revenir à la page d'accueil -->
 
-        <!-- Section 'Quel domaine' -->
-        <tr>
-            <td colspan="2"><p><b>Quel domaine :</b></p></td>
-        </tr>
-        <tr>
-            <td><label for="histoire">histoire</label></td>
-            <td><input type="checkbox" id="histoire" name="domaine"></td>
-        </tr>
-        <tr>
-            <td><label for="maths">mathématiques</label></td>
-            <td><input type="checkbox" id="maths" name="domaine"></td>
-        </tr>
-        <tr>
-            <td><label for="ecodroit">économie/droit</label></td>
-            <td><input type="checkbox" id="ecodroit" name="domaine"></td>
-        </tr>
-        <tr>
-            <td><label for="fr">français/phylosophie</label></td>
-            <td><input type="checkbox" id="fr" name="domaine"></td>
-        </tr>
-        <tr>
-            <td><label for="bio">biologie</label></td>
-            <td><input type="checkbox" id="bio" name="domaine"></td>
-        </tr>
+    <h1>Entrainement avec des exercices</h1> <!-- Titre principal de la page -->
 
-        <!-- Section 'Corrigé' -->
-        <tr>
-            <td colspan="2"><p><b>Corrigé :</b></p></td>
-        </tr>
-        <tr>
-            <td><label for="oui">oui</label></td>
-            <td><input type="checkbox" id="oui" name="corrige"></td>
-        </tr>
-        <tr>
-            <td><label for="non">non</label></td>
-            <td><input type="checkbox" id="non" name="corrige"></td>
-        </tr>
+    <!-- Zone centrale pour le formulaire de recherche d'exercices -->
+    <div class="centrerDiv">
+        <form action="/Help-with-homework/accueil.html" method="get">
+            <table>
+                <!-- Section pour choisir le niveau des exercices -->
+                <tr>
+                    <td colspan="2"><p><b>Quel niveau :</b></p></td>
+                </tr>
+                <tr>
+                    <td><label for="college">collège</label></td>
+                    <td><input type="checkbox" id="college" name="niveau"></td>
+                </tr>
+                <tr>
+                    <td><label for="lycee">lycée</label></td>
+                    <td><input type="checkbox" id="lycee" name="niveau"></td>
+                </tr>
 
-        <!-- Bouton de soumission -->
-        <tr>
-            <td colspan="2"><input type="submit" value="Trouver des exercices"></td>
-        </tr>
-    </table>
-</form>
-</div>
-  <footer>
-  <div class="footer-section">
-    <h4>Instagram :</h4>
-    <a href="https://www.instagram.com/">
-      <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
-    </a>
-  </div>
+                <!-- Section pour sélectionner le domaine des exercices -->
+                <tr>
+                    <td colspan="2"><p><b>Quel domaine :</b></p></td>
+                </tr>
+                <tr>
+                    <td><label for="histoire">histoire</label></td>
+                    <td><input type="checkbox" id="histoire" name="domaine"></td>
+                </tr>
+                <tr>
+                    <td><label for="maths">mathématiques</label></td>
+                    <td><input type="checkbox" id="maths" name="domaine"></td>
+                </tr>
+                <tr>
+                    <td><label for="ecodroit">économie/droit</label></td>
+                    <td><input type="checkbox" id="ecodroit" name="domaine"></td>
+                </tr>
+                <tr>
+                    <td><label for="fr">français/phylosophie</label></td>
+                    <td><input type="checkbox" id="fr" name="domaine"></td>
+                </tr>
+                <tr>
+                    <td><label for="bio">biologie</label></td>
+                    <td><input type="checkbox" id="bio" name="domaine"></td>
+                </tr>
 
-  <div class="footer-section">
-    <h4>Numéro de téléphone :</h4>
-    <a href="#">
-      <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
-    </a>
-    <p>01 23 45 67 89</p>
-  </div>
+                <!-- Section pour choisir si les exercices doivent avoir un corrigé -->
+                <tr>
+                    <td colspan="2"><p><b>Corrigé :</b></p></td>
+                </tr>
+                <tr>
+                    <td><label for="oui">oui</label></td>
+                    <td><input type="checkbox" id="oui" name="corrige"></td>
+                </tr>
+                <tr>
+                    <td><label for="non">non</label></td>
+                    <td><input type="checkbox" id="non" name="corrige"></td>
+                </tr>
 
-  <div class="footer-section">
-    <h4>Email :</h4>
-    <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a>
-  </div>
-
-  <div class="footer-section">
-    <h4>Newsletter :</h4>
-    <form action="#">
-      <input type="text" placeholder="Entrer email">
-      <button type="submit">Newsletter</button>
-    </form>
-  </div>
-
-  <div class="footer-section">
-    <h4>Liens :</h4>
-    <div class="footer-links">
-      <a href="accueil.html">Accueil</a>
-      <a href="photos.html">Photos</a>
-      <a href="cours_particuliers.html">Cours Particulier</a>
-      <a href="forum.html">Forum</a>
-      <a href="exercices.html">Exercices</a>
+                <!-- Bouton pour lancer la recherche des exercices -->
+                <tr>
+                    <td colspan="2"><input type="submit" value="Trouver des exercices"></td>
+                </tr>
+            </table>
+        </form>
     </div>
-  </div>
-</footer>
-    
-</body>
 
+    <!-- Pied de page avec informations de contact et liens utiles -->
+    <footer>
+        <!-- Section Instagram avec lien et image -->
+        <div class="footer-section">
+            <h4>Instagram :</h4>
+            <a href="https://www.instagram.com/">
+                <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
+            </a>
+        </div>
+
+        <!-- Autres sections du pied de page (Numéro de téléphone, Email, Newsletter, Liens) -->
+        <div class="footer-section">
+            <h4>Numéro de téléphone :</h4>
+            <a href="#">
+                <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
+            </a>
+            <p>01 23 45 67 89</p>
+        </div>
+
+        <div class="footer-section">
+            <h4>Email :</h4>
+            <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a>
+        </div>
+
+        <div class="footer-section">
+            <h4>Newsletter :</h4>
+            <form action="#">
+                <input type="text" placeholder="Entrer email">
+                <button type="submit">Newsletter</button>
+            </form>
+        </div>
+
+        <div class="footer-section">
+            <h4>Liens :</h4>
+            <div class="footer-links">
+                <a href="accueil.html">Accueil</a>
+                <a href="photos.html">Photos</a>
+                <a href="cours_particuliers.html">Cours Particulier</a>
+                <a href="forum.html">Forum</a>
+                <a href="exercices.html">Exercices</a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
