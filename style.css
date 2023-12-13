@@ -36,6 +36,11 @@ body {
   margin:0 auto;
 }
 
+/*Centrer une box sur la page horizontalement*/
+.centrerDiv{
+  margin:0 auto;
+}
+
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
 table, th, td {
   border-radius: 10px; /* Coins arrondis pour les tables et cellules */
