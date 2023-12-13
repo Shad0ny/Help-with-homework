@@ -23,9 +23,16 @@ body {
   top: 30px; /* Positionne à 30px du haut */
   right: 50px; /* Positionne à 50px de la droite */
 }
+
+/*Style image Générique*/
 .img{
   width: 85px; /* Largeur fixe */
   height: 85px; /* Hauteur fixe */
+}
+
+/*Un marge pour le texte*/
+.margeTexte{
+  margin: 20px;
 }
 
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
