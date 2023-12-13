@@ -33,17 +33,13 @@ footer {
   color: white; /* Texte en blanc */
   padding: 20px; /* Padding autour du contenu */
   display: flex;/* Oriente les enfants en ligne */
-  justify-content: space-arrond;/*adapte les bbox au la taille de l'écran*/
+  justify-content: space-around;/*adapte les bbox au la taille de l'écran*/
 }
 
 /* Style pour les images dans le footer */
 .footimg{
   width: 45px; /* Largeur fixe */
   height: 45px; /* Hauteur fixe */
-  top: 60px;
-  left: 85px;
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-  background-position: center; 
 }
 
 /* Style pour les sections dans le footer */
