@@ -12,32 +12,71 @@
   <button class=connexion onclick="document.location='accueil.html'">Revenir à l'accueil</button>
 
 <h1>Outils de recherche pour des cours particuliers</h1>
+<div class=centerDiv>
 <form action="/Help-with-homework/accueil.html" method="get">
-  <p>Cours avec :</p>
-  <label for="enseignant">un enseignant (payant)</label>
-  <input type="checkbox" id="enseignant" name="avec"><br>
-  <label for="etudiant">un étudiant (gratuit)</label>
-  <input type="checkbox" id="etudiant" name="avec"><br>
-  <p>Quel niveau :</p>
-  <label for="college">collège</label>
-  <input type="checkbox" id="college" name="niveau"><br>
-  <label for="lycee">lycée</label>
-  <input type="checkbox" id="lycee" name="niveau"><br>
-  <label for="etudesup">études supérieures</label>
-  <input type="checkbox" id="etudesup" name="niveau"><br>
-  <p>Quelle matière :</p>
-  <label for="histoire">histoire</label>
-  <input type="checkbox" id="histoire" name="matiere"><br>
-  <label for="math">mathématiques</label>
-  <input type="checkbox" id="math" name="matiere"><br>
-  <label for="eco">économie/droit</label>
-  <input type="checkbox" id="eco" name="matiere"><br>
-  <label for="fr">français/philosophie</label>
-  <input type="checkbox" id="fr" name="matiere"><br>
-  <label for="bio">biologie</label>
-  <input type="checkbox" id="bio" name="matiere"><br>
-  <input type="submit" value="Rechercher">
+    <table>
+        <!-- Section 'Cours avec' -->
+        <tr>
+            <td colspan="2"><p>Cours avec :</p></td>
+        </tr>
+        <tr>
+            <td><label for="enseignant">un enseignant (payant)</label></td>
+            <td><input type="checkbox" id="enseignant" name="avec"></td>
+        </tr>
+        <tr>
+            <td><label for="etudiant">un étudiant (gratuit)</label></td>
+            <td><input type="checkbox" id="etudiant" name="avec"></td>
+        </tr>
+
+        <!-- Section 'Quel niveau' -->
+        <tr>
+            <td colspan="2"><p>Quel niveau :</p></td>
+        </tr>
+        <tr>
+            <td><label for="college">collège</label></td>
+            <td><input type="checkbox" id="college" name="niveau"></td>
+        </tr>
+        <tr>
+            <td><label for="lycee">lycée</label></td>
+            <td><input type="checkbox" id="lycee" name="niveau"></td>
+        </tr>
+        <tr>
+            <td><label for="etudesup">études supérieures</label></td>
+            <td><input type="checkbox" id="etudesup" name="niveau"></td>
+        </tr>
+
+        <!-- Section 'Quelle matière' -->
+        <tr>
+            <td colspan="2"><p>Quelle matière :</p></td>
+        </tr>
+        <tr>
+            <td><label for="histoire">histoire</label></td>
+            <td><input type="checkbox" id="histoire" name="matiere"></td>
+        </tr>
+        <tr>
+            <td><label for="math">mathématiques</label></td>
+            <td><input type="checkbox" id="math" name="matiere"></td>
+        </tr>
+        <tr>
+            <td><label for="eco">économie/droit</label></td>
+            <td><input type="checkbox" id="eco" name="matiere"></td>
+        </tr>
+        <tr>
+            <td><label for="fr">français/philosophie</label></td>
+            <td><input type="checkbox" id="fr" name="matiere"></td>
+        </tr>
+        <tr>
+            <td><label for="bio">biologie</label></td>
+            <td><input type="checkbox" id="bio" name="matiere"></td>
+        </tr>
+
+        <!-- Bouton de soumission -->
+        <tr>
+            <td colspan="2"><input type="submit" value="Rechercher"></td>
+        </tr>
+    </table>
 </form>
+</div>
 
   <footer>
   <div class="footer-section">
