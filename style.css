@@ -23,6 +23,10 @@ body {
   top: 30px; /* Positionne à 30px du haut */
   right: 50px; /* Positionne à 50px de la droite */
 }
+.img{
+  width: 85px; /* Largeur fixe */
+  height: 85px; /* Hauteur fixe */
+}
 
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
 table, th, td {
