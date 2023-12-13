@@ -32,7 +32,8 @@ body {
 
 /*Un marge pour le texte*/
 .margeTexte{
-  margin: 20px;
+  width:90%;
+  margin:0 auto;
 }
 
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
