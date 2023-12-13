@@ -129,7 +129,8 @@ h1:hover {
 
 /*centrer image*/
 .centerEnf{
-  align-items: center;/*centre l'interieur des box footeur*/
+  text-align: center; /* Centre horizontalement */
+  vertical-align: middle; /* Centre verticalement */
 }
 
 /*image Partenaire section End*/
