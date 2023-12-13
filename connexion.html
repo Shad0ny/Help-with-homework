@@ -1,148 +1,148 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Connexion</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Connexion</title> <!-- Titre de la page pour l'onglet du navigateur -->
 </head>
 
 <body>
-  <img src="./assets/Img/logo.png" alt="logo" class=logo>
-  <button class=connexion onclick="document.location='accueil.html'">Revenir à  l'accueil</button>
-  <h1>Connexion</h1>
-  <!-- Le formulaire de connexion-->
-  <div class=centrerDiv>
-  <form action="/Help-with-homework/accueil.html" method="get">
-    <table border="0" cellspacing="5" cellpadding="5">
-      <tr>
-        <td>
-    <label for="login">Identifiant/adresse mail :</label>
-        </td>
-        <td>
-    <input type="text" id="login" name="login" required>
-        </td>
-      </tr>
-      <tr>
-        <td>
-    <label for="password1">Mot de passe :</label>
-        </td>
-        <td>
-    <input type="password" id="password1" name="password1" required>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=2><center>
-    <input type="submit" value="Se connecter"></center>
-        </td>
-      </tr>
-    </table>
-  </form>
-  </div>
-  
-  <h1>Pas encore de compte ? Inscrivez vous dès maintenant !</h1>
-  <!-- Le formulaire d'inscription-->
-  <div class=centrerDiv>
-  <form action="/Help-with-homework/accueil.html" method="get">
-    <table border="0" cellspacing="5" cellpadding="5">
-      <tr>
-        <td>
-    <label for="Nom">Nom :</label>
-          </td>
-            <td>
-    <input type="text" id="Nom" name="Nom" required>
-              </td>
-      </tr>
-      <tr>
-        <td>
-    <label for="Prenom">Prénom :</label>
-          </td>
-            <td>
-    <input type="text" id="Prenom" name="Prenom" required>
-              </td>
-      </tr>
-        <tr>
-          <td>
-    <label for="birthday">Date de naissance :</label>
-            </td>
-              <td>
-    <input type="date" id="birthday" name="birthday" required>
-                </td>
-      </tr>
-        <tr>
-          <td>
-    <label for="mail">Adresse mail :</label>
-            </td>
-              <td>
-    <input type="text" id="mail" name="mail" required>
-                </td>
-      </tr>
-        <tr>
-          <td>
-    <label for="password2">Mot de passe :</label>
-            </td>
-              <td>
-    <input type="password" id="password2" name="password2" required>
-                </td>
-      </tr>
-        <tr>
-          <td>
-    <label for="password3">Confirmez le mot de passe :</label>
-            </td>
-              <td>
-    <input type="password" id="password3" name="password3" required>
-                </td>
-      </tr>
-        <tr>
-          <td colspan=2><center>
-    <input type="submit" value="S'inscrire">
-          </center>
-            </td>
-      </tr>
-    </table>
-  </form>
-  </div>
+    <img src="./assets/Img/logo.png" alt="logo" class="logo"> <!-- Affiche le logo du site -->
+    <button class="connexion" onclick="document.location='accueil.html'">Revenir à  l'accueil</button> <!-- Bouton pour revenir à la page d'accueil -->
+    <h1>Connexion</h1> <!-- Titre principal de la page de connexion -->
 
-  
-<footer>
-  <div class="footer-section">
-    <h4>Instagram :</h4>
-    <a href="https://www.instagram.com/">
-      <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
-    </a>
-  </div>
-
-  <div class="footer-section">
-    <h4>Numéro de téléphone :</h4>
-    <a href="#">
-      <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
-    </a>
-    <p>01 23 45 67 89</p>
-  </div>
-
-  <div class="footer-section">
-    <h4>Email :</h4>
-    <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a>
-  </div>
-
-  <div class="footer-section">
-    <h4>Newsletter :</h4>
-    <form action="#">
-      <input type="text" placeholder="Entrer email">
-      <button type="submit">Newsletter</button>
-    </form>
-  </div>
-
-  <div class="footer-section">
-    <h4>Liens :</h4>
-    <div class="footer-links">
-      <a href="accueil.html">Accueil</a>
-      <a href="photos.html">Photos</a>
-      <a href="cours_particuliers.html">Cours Particulier</a>
-      <a href="forum.html">Forum</a>
-      <a href="exercices.html">Exercices</a>
+    <!-- Début du formulaire de connexion -->
+    <div class="centrerDiv">
+        <form action="/Help-with-homework/accueil.html" method="get">
+            <table border="0" cellspacing="5" cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="login">Identifiant/adresse mail :</label> <!-- Champ pour l'identifiant ou l'adresse mail -->
+                    </td>
+                    <td>
+                        <input type="text" id="login" name="login" required> <!-- Input pour saisir l'identifiant ou l'adresse mail -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password1">Mot de passe :</label> <!-- Champ pour le mot de passe -->
+                    </td>
+                    <td>
+                        <input type="password" id="password1" name="password1" required> <!-- Input pour saisir le mot de passe -->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center>
+                        <input type="submit" value="Se connecter"> <!-- Bouton pour valider la connexion -->
+                    </center></td>
+                </tr>
+            </table>
+        </form>
     </div>
-  </div>
-</footer>
-  
+
+    <h1>Pas encore de compte ? Inscrivez-vous dès maintenant !</h1> <!-- Invitation à s'inscrire pour les nouveaux utilisateurs -->
+
+    <!-- Début du formulaire d'inscription -->
+    <div class="centrerDiv">
+        <form action="/Help-with-homework/accueil.html" method="get">
+            <table border="0" cellspacing="5" cellpadding="5">
+                <tr>
+                    <td>
+                        <label for="Nom">Nom :</label> <!-- Champ pour le nom -->
+                    </td>
+                    <td>
+                        <input type="text" id="Nom" name="Nom" required> <!-- Input pour saisir le nom -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Prenom">Prénom :</label> <!-- Champ pour le prénom -->
+                    </td>
+                    <td>
+                        <input type="text" id="Prenom" name="Prenom" required> <!-- Input pour saisir le prénom -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="birthday">Date de naissance :</label> <!-- Champ pour la date de naissance -->
+                    </td>
+                    <td>
+                        <input type="date" id="birthday" name="birthday" required> <!-- Input pour saisir la date de naissance -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mail">Adresse mail :</label> <!-- Champ pour l'adresse mail -->
+                    </td>
+                    <td>
+                        <input type="text" id="mail" name="mail" required> <!-- Input pour saisir l'adresse mail -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password2">Mot de passe :</label> <!-- Champ pour le mot de passe -->
+                    </td>
+                    <td>
+                        <input type="password" id="password2" name="password2" required> <!-- Input pour saisir le mot de passe -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password3">Confirmez le mot de passe :</label> <!-- Champ pour la confirmation du mot de passe -->
+                    </td>
+                    <td>
+                        <input type="password" id="password3" name="password3" required> <!-- Input pour confirmer le mot de passe -->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><center>
+                        <input type="submit" value="S'inscrire"> <!-- Bouton pour valider l'inscription -->
+                    </center></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- Pied de page avec des liens et informations de contact -->
+    <footer>
+        <div class="footer-section">
+            <h4>Instagram :</h4>
+            <a href="https://www.instagram.com/">
+                <img src="./assets/Img/insta.png" alt="instagram" class="footimg"> <!-- Lien vers Instagram -->
+            </a>
+        </div>
+
+        <div class="footer-section">
+            <h4>Numéro de téléphone :</h4>
+            <a href="#">
+                <img src="./assets/Img/tel.png" alt="telephone" class="footimg"> <!-- Image du téléphone -->
+            </a>
+            <p>01 23 45 67 89</p> <!-- Numéro de téléphone affiché -->
+        </div>
+
+        <div class="footer-section">
+            <h4>Email :</h4>
+            <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a> <!-- Lien pour envoyer un email -->
+        </div>
+
+        <div class="footer-section">
+            <h4>Newsletter :</h4>
+            <form action="#">
+                <input type="text" placeholder="Entrer email"> <!-- Champ pour saisir l'email pour la newsletter -->
+                <button type="submit">Newsletter</button> <!-- Bouton pour s'abonner à la newsletter -->
+            </form>
+        </div>
+
+        <div class="footer-section">
+            <h4>Liens :</h4>
+            <div class="footer-links">
+                <a href="accueil.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+                <a href="photos.html">Photos</a> <!-- Lien vers la page des photos -->
+                <a href="cours_particuliers.html">Cours Particulier</a> <!-- Lien vers la page des cours particuliers -->
+                <a href="forum.html">Forum</a> <!-- Lien vers le forum -->
+                <a href="exercices.html">Exercices</a> <!-- Lien vers les exercices -->
+            </div>
+        </div>
+    </footer>
 </body>
+</html>
