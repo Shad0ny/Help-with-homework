@@ -13,8 +13,7 @@ body {
 .logo {
   width: 85px;
   height: 85px;
-  top: 60px;
-  left: 85px;
+  margin: 60px;
 }
 
 .connexion {
