@@ -24,62 +24,9 @@ body {
   right: 50px; /* Positionne à 50px de la droite */
 }
 
-/* Footer section Start */
-
-/* Style pour le footer */
-footer {
-  background-color: #001EF9; /* Couleur de fond bleue */
-  color: white; /* Texte en blanc */
-  padding: 20px; /* Padding autour du contenu */
-  display: flex;/* Oriente les enfants en ligne */
-  justify-content: space-around;/*adapte les bbox au la taille de l'écran*/
-}
-
-/* Style pour les images dans le footer */
-.footimg{
-  width: 45px; /* Largeur fixe */
-  height: 45px; /* Hauteur fixe */
-}
-
-/* Style pour les sections dans le footer */
-.footer-section {
-  margin-bottom: 20px; /* Marge en dessous de chaque section */
-  display: flex;/* Oriente les enfants */
-  flex-direction: column;/*Garde les objet en colonne*/
-  align-items: center;/*centre l'interieur des box footeur*/
-}
-
-/* Style pour les titres dans les sections du footer */
-.footer-section h4 {
-  margin-bottom: 5px; /* Marge en dessous du titre */
-}
-
-/* Style pour les liens dans les sections du footer */
-.footer-section a {
-  text-decoration: none; /* Supprime le soulignement des liens */
-  color: #F0F0F0; /* Couleur des liens */
-}
-
-/* Style pour les liens listés dans le footer */
-.footer-links a {
-  display: block; /* Affiche chaque lien sur une nouvelle ligne */
-  margin-bottom: 5px; /* Marge entre les liens */
-}
-
-/* Footer section end */
-
 /* Style de base pour les tables, cellules, et en-têtes de tableau */
 table, th, td {
   border-radius: 10px; /* Coins arrondis pour les tables et cellules */
-}
-
-/* Style pour les images générales */
-.img{
-  width: auto; /* Largeur automatique en fonction du contenu */
-  max-width: 215px;/* Limite la Largeur automatique en fonction du contenu */
-  height: 90px; /* Hauteur fixe */
-  background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le conteneur */
-  background-position: center;
 }
 
 /* Style de base pour les blocs cliquables dans le sommaire */
@@ -170,3 +117,64 @@ h1:hover {
 .table_forum a:hover {
     text-decoration: underline; /* Souligne le lien au survol */
 }
+
+/*image Partenaire section Start*/
+
+/* Style pour les images*/
+.imgPartenaire{
+  width: auto; /* Largeur automatique en fonction du contenu */
+  max-width: 215px;/* Limite la Largeur automatique en fonction du contenu */
+  height: 90px; /* Hauteur fixe */
+}
+
+/*centrer image*/
+.centerEnf{
+  display: flex;/* Oriente les enfants */
+  align-items: center;/*centre l'interieur des box footeur*/
+}
+
+/*image Partenaire section End*/
+
+/* Footer section Start */
+
+/* Style pour le footer */
+footer {
+  background-color: #001EF9; /* Couleur de fond bleue */
+  color: white; /* Texte en blanc */
+  padding: 20px; /* Padding autour du contenu */
+  display: flex;/* Oriente les enfants en ligne */
+  justify-content: space-around;/*adapte les bbox au la taille de l'écran*/
+}
+
+/* Style pour les images dans le footer */
+.footimg{
+  width: 45px; /* Largeur fixe */
+  height: 45px; /* Hauteur fixe */
+}
+
+/* Style pour les sections dans le footer */
+.footer-section {
+  margin-bottom: 20px; /* Marge en dessous de chaque section */
+  display: flex;/* Oriente les enfants */
+  flex-direction: column;/*Garde les objet en colonne*/
+  align-items: center;/*centre l'interieur des box footeur*/
+}
+
+/* Style pour les titres dans les sections du footer */
+.footer-section h4 {
+  margin-bottom: 5px; /* Marge en dessous du titre */
+}
+
+/* Style pour les liens dans les sections du footer */
+.footer-section a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: #F0F0F0; /* Couleur des liens */
+}
+
+/* Style pour les liens listés dans le footer */
+.footer-links a {
+  display: block; /* Affiche chaque lien sur une nouvelle ligne */
+  margin-bottom: 5px; /* Marge entre les liens */
+}
+
+/* Footer section end */
