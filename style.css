@@ -45,7 +45,8 @@ footer {
 .footer-section {
   margin-bottom: 20px; /* Marge en dessous de chaque section */
   display: flex;/* Oriente les enfants */
-  justify-content: center;/*centre l'interieur des box footeur*/
+  flex-direction: column;/*Garde les objet en colonne*/
+  align-items: center;/*centre l'interieur des box footeur*/
 }
 
 /* Style pour les titres dans les sections du footer */
