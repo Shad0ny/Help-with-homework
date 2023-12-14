@@ -1,93 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Avis</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de style CSS -->
+    <title>Avis</title> <!-- Titre de l'onglet pour la page des avis -->
 </head>
 
 <body>
-  <img src="./assets/Img/logo.png" alt="logo" class=logo>
-  <button class=connexion onclick="document.location='accueil.html'">Revenir à l'accueil</button>
+    <img src="./assets/Img/logo.png" alt="logo" class="logo"> <!-- Logo du site en haut de la page -->
+    <button class="connexion" onclick="document.location='accueil.html'">Revenir à l'accueil</button> <!-- Bouton pour revenir à la page d'accueil -->
 
-  <table class=table_forum>
-    <tr>
-      <th>Sujets</th>
-      <th>Réponses</th>
-      <th>Vues</th>
-      <th>Dernier message</th>
-    </tr>
-    <tr>
-      <td><a href="./forum/page1.html">Cours enfant 6 ans</a></td>
-      <td>2</td>
-      <td>163</td>
-      <td>par Fred le 13/08/2023</td>
-    </tr>
-    <tr>
-      <td><a href="./forum/page2.html">Erreur de connexion</a></td>
-      <td>5</td>
-      <td>254</td>
-      <td>par Thomas le 23/11/23</td>
-    </tr>
-    <tr>
-      <td><a href="./forum/page3.html">Peut-on se connecter sans utiliser une adresse mail</a></td>
-      <td>1</td>
-      <td>15</td>
-      <td>par Joachim le 12/05/20</td>
-    </tr>
-    <tr>
-      <td><a href="./forum/page4.html">Joyeux noël</a></td>
-      <td>52</td>
-      <td>5425</td>
-      <td>par Kasper le 06/04/12</td>
-    </tr>
-    <tr>
-      
-    </tr>
-  </table>
+    <!-- Tableau pour afficher les sujets du forum avec leurs réponses, vues et le dernier message -->
+    <table class="table_forum">
+        <tr>
+            <th>Sujets</th> <!-- Colonne pour les sujets du forum -->
+            <th>Réponses</th> <!-- Colonne pour le nombre de réponses -->
+            <th>Vues</th> <!-- Colonne pour le nombre de vues -->
+            <th>Dernier message</th> <!-- Colonne pour le dernier message posté -->
+        </tr>
+        <tr>
+            <td><a href="./forum/page1.html">Cours enfant 6 ans</a></td>
+            <td>2</td>
+            <td>163</td>
+            <td>par Fred le 13/08/2023</td>
+        </tr>
+        <tr>
+            <td><a href="./forum/page2.html">Erreur de connexion</a></td>
+            <td>5</td>
+            <td>254</td>
+            <td>par Thomas le 23/11/23</td>
+        </tr>
+        <tr>
+            <td><a href="./forum/page3.html">Peut-on se connecter sans utiliser une adresse mail</a></td>
+            <td>1</td>
+            <td>15</td>
+            <td>par Joachim le 12/05/20</td>
+        </tr>
+        <tr>
+            <td><a href="./forum/page4.html">Joyeux noël</a></td>
+            <td>52</td>
+            <td>5425</td>
+            <td>par Kasper le 06/04/12</td>
+        </tr>
+    </table>
   
-  <footer>
-  <div class="footer-section">
-    <h4>Instagram :</h4>
-    <a href="https://www.instagram.com/">
-      <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
-    </a>
-  </div>
+    <!-- Pied de page avec des informations de contact et des liens utiles -->
+    <footer>
+        <div class="footer-section">
+            <h4>Instagram :</h4> <!-- Section Instagram avec lien et image -->
+            <a href="https://www.instagram.com/">
+                <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
+            </a>
+        </div>
 
-  <div class="footer-section">
-    <h4>Numéro de téléphone :</h4>
-    <a href="#">
-      <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
-    </a>
-    <p>01 23 45 67 89</p>
-  </div>
+        <div class="footer-section">
+            <h4>Numéro de téléphone :</h4> <!-- Section pour le numéro de téléphone -->
+            <a href="#">
+                <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
+            </a>
+            <p>01 23 45 67 89</p> <!-- Affichage du numéro de téléphone -->
+        </div>
 
-  <div class="footer-section">
-    <h4>Email :</h4>
-    <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a>
-  </div>
+        <div class="footer-section">
+            <h4>Email :</h4> <!-- Section pour l'email -->
+            <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a> <!-- Lien pour envoyer un email -->
+        </div>
 
-  <div class="footer-section">
-    <h4>Newsletter :</h4>
-    <form action="#">
-      <input type="text" placeholder="Entrer email">
-      <button type="submit">Newsletter</button>
-    </form>
-  </div>
+        <div class="footer-section">
+            <h4>Newsletter :</h4> <!-- Section pour la newsletter -->
+            <form action="#">
+                <input type="text" placeholder="Entrer email"> <!-- Champ pour saisir l'email -->
+                <button type="submit">Newsletter</button> <!-- Bouton pour s'inscrire à la newsletter -->
+            </form>
+        </div>
 
-  <div class="footer-section">
-    <h4>Liens :</h4>
-    <div class="footer-links">
-      <a href="accueil.html">Accueil</a>
-      <a href="photos.html">Photos</a>
-      <a href="cours_particuliers.html">Cours Particulier</a>
-      <a href="forum.html">Forum</a>
-      <a href="exercices.html">Exercices</a>
-    </div>
-  </div>
-</footer>
-  
+        <div class="footer-section">
+            <h4>Liens :</h4> <!-- Section pour les liens utiles -->
+            <div class="footer-links">
+                <a href="accueil.html">Accueil</a>
+                <a href="photos.html">Photos</a>
+                <a href="cours_particuliers.html">Cours Particulier</a>
+                <a href="forum.html">Forum</a>
+                <a href="exercices.html">Exercices</a>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
