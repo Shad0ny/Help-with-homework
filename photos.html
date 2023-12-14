@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <title>Photos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de style CSS -->
+    <title>Photos</title> <!-- Titre de la page "Photos" -->
 </head>
 
 <body>
-  <img src="./assets/Img/logo.png" alt="logo" class=logo>
- <button class=connexion onclick="document.location='accueil.html'">Revenir à l'accueil</button>
+    <img src="./assets/Img/logo.png" alt="logo" class="logo"> <!-- Affichage du logo du site -->
+    <button class="connexion" onclick="document.location='accueil.html'">Revenir à l'accueil</button> <!-- Bouton pour retourner à la page d'accueil -->
 
-  <h1>2022 :</h1>
-  <table border=0 cellspacing=5 cellpadding=5>
-    <tr>
-      <td><img src="./assets/Img/prof.jpg" alt="prof"></td>
-      <td><img src="./assets/Img/etu.jpg" alt="etu"></td>
-    </tr>
-    <tr>
-      <td><img src="./assets/Img/prof3.jpg" alt="prof3"></td>
-      <td><img src="./assets/Img/prof4.jpg" alt="prof4"></td>
-    </tr>
-  </table>
-  <h1>2021 :</h1>
-  <table border=0 cellspacing=5 cellpadding=5>
-    <tr>
-      <td><img src="./assets/Img/etu2.jpg" alt="etu2"></td>
-      <td><img src="./assets/Img/prof6.jpg" alt="prof6"></td>
-      <td><img src="./assets/Img/etu4.jpg" alt="etu4"></td>
-    </tr>
-  </table>
+    <!-- Section des photos pour l'année 2022 -->
+    <h1>2022 :</h1> <!-- Titre indiquant l'année des photos -->
+    <table border="0" cellspacing="5" cellpadding="5"> <!-- Tableau pour organiser les photos de 2022 -->
+        <tr>
+            <td><img src="./assets/Img/prof.jpg" alt="prof"></td> <!-- Photo d'un professeur -->
+            <td><img src="./assets/Img/etu.jpg" alt="etu"></td> <!-- Photo d'un étudiant -->
+        </tr>
+        <tr>
+            <td><img src="./assets/Img/prof3.jpg" alt="prof3"></td> <!-- Autre photo d'un professeur -->
+            <td><img src="./assets/Img/prof4.jpg" alt="prof4"></td> <!-- Autre photo d'un professeur -->
+        </tr>
+    </table>
+
+    <!-- Section des photos pour l'année 2021 -->
+    <h1>2021 :</h1> <!-- Titre indiquant l'année des photos -->
+    <table border="0" cellspacing="5" cellpadding="5"> <!-- Tableau pour organiser les photos de 2021 -->
+        <tr>
+            <td><img src="./assets/Img/etu2.jpg" alt="etu2"></td> <!-- Photo d'un étudiant -->
+            <td><img src="./assets/Img/prof6.jpg" alt="prof6"></td> <!-- Photo d'un professeur -->
+            <td><img src="./assets/Img/etu4.jpg" alt="etu4"></td> <!-- Photo d'un autre étudiant -->
+        </tr>
+    </table>
   
-  <footer>
-  <div class="footer-section">
-    <h4>Instagram :</h4>
-    <a href="https://www.instagram.com/">
-      <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
-    </a>
-  </div>
+    <!-- Pied de page avec des informations de contact et des liens utiles -->
+    <footer>
+        <div class="footer-section">
+            <h4>Instagram :</h4> <!-- Section pour Instagram -->
+            <a href="https://www.instagram.com/">
+                <img src="./assets/Img/insta.png" alt="instagram" class="footimg">
+            </a>
+        </div>
 
-  <div class="footer-section">
-    <h4>Numéro de téléphone :</h4>
-    <a href="#">
-      <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
-    </a>
-    <p>01 23 45 67 89</p>
-  </div>
+        <div class="footer-section">
+            <h4>Numéro de téléphone :</h4> <!-- Section pour le numéro de téléphone -->
+            <a href="#">
+                <img src="./assets/Img/tel.png" alt="telephone" class="footimg">
+            </a>
+            <p>01 23 45 67 89</p> <!-- Numéro de téléphone affiché -->
+        </div>
 
-  <div class="footer-section">
-    <h4>Email :</h4>
-    <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a>
-  </div>
+        <div class="footer-section">
+            <h4>Email :</h4> <!-- Section pour l'email -->
+            <a href="mailto:help_homework@gmail.com">help_homework@gmail.com</a> <!-- Adresse email -->
+        </div>
 
-  <div class="footer-section">
-    <h4>Newsletter :</h4>
-    <form action="#">
-      <input type="text" placeholder="Entrer email">
-      <button type="submit">Newsletter</button>
-    </form>
-  </div>
+        <div class="footer-section">
+            <h4>Newsletter :</h4> <!-- Section pour la newsletter -->
+            <form action="#">
+                <input type="text" placeholder="Entrer email"> <!-- Champ pour entrer l'email -->
+                <button type="submit">Newsletter</button> <!-- Bouton pour s'inscrire à la newsletter -->
+            </form>
+        </div>
 
-  <div class="footer-section">
-    <h4>Liens :</h4>
-    <div class="footer-links">
-      <a href="accueil.html">Accueil</a>
-      <a href="photos.html">Photos</a>
-      <a href="cours_particuliers.html">Cours Particulier</a>
-      <a href="forum.html">Forum</a>
-      <a href="exercices.html">Exercices</a>
-    </div>
-  </div>
-</footer>
+        <div class="footer-section">
+            <h4>Liens :</h4> <!-- Section pour les liens utiles -->
+            <div class="footer-links">
+                <a href="accueil.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+                <a href="photos.html">Photos</a> <!-- Lien vers la page des photos -->
+                <a href="cours_particuliers.html">Cours Particulier</a> <!-- Lien vers la page des cours particuliers -->
+                <a href="forum.html">Forum</a> <!-- Lien vers le forum -->
+                <a href="exercices.html">Exercices</a> <!-- Lien vers la page des exercices -->
+            </div>
+        </div>
+    </footer>
   
 </body>
-
 </html>
+
